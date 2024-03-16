@@ -1,0 +1,32 @@
+﻿<div align="center">
+    <form method="post">
+        <h3>
+            Даны три действительные числа. Если все числа положительны, найти
+            среднее арифметическое, иначе произведение.
+        </h3>
+        <p>
+            <label>Число 1:</label>
+            <input type="text" name="a" />
+        </p>
+        <p>
+            <label>Число 2:</label>
+            <input type="text" name="b" />
+        </p>
+        <p>
+            <label>Число 3:</label>
+            <input type="text" name="c" />
+        </p>
+        <p>
+            <input type="submit" value="Вычислить" />
+        </p>
+    </form>
+    <p>
+        <label>
+            Результат:
+        </label>
+        <label>
+            @ViewBag.Result
+        </label>
+    </p>
+    <label> @ViewBag.E</label>
+</div>
